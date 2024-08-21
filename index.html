@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="NAV">
+            <a href="index.html">Cadastro</a>
+            <a href="tabela.html">Tabela</a>
+        </div>
+    </header>
+
+    <div class="container-inicial">
+
+        <h1 class="titulo">Novo Post!</h1>
+
+        <form id="cadastro-pet" class='container-input'>
+
+            <div class="container-input">
+                <label for="foto">Imagem:</label>
+                <input autocomplete="off" type="url" id="foto" placeholder="Coloque sua Imagem" />
+                <span id="erro-foto"></span>           
+            </div>
+
+            <div>
+
+                <div class="container-input">
+                    <label for="nome">Nome:</label>
+                    <input autocomplete="off" id="nome" placeholder="Digite o Nome do Pet" />
+                    <span id="erro-nome"></span>
+                </div>
+
+                <div class="container-input">
+                    <label for="idade">Idade:</label>
+                    <input autocomplete="off" id="idade" placeholder="Digite a Idade do Pet" />
+                    <span id="erro-idade"></span>
+                </div>
+
+            </div>
+
+            <div class="container-input">
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao"></textarea>
+                <span id="erro-descricao"></span>
+            </div>
+
+            <div class="container-input">
+                <label for="especie">Espécie:</label>
+                <select id="especie">
+                    <option value="" style="font-weight: bold;">Selecione uma Opção</option>
+                    <option value="CACHORRO">Cachorro</option>
+                    <option value="GATO">Gato</option>
+                    <option value="AVE">Ave</option>
+                    <option value="DIVERSOS">Diversos</option>
+                </select>
+                    <span id="erro-especie"></span>
+
+            </div>
+
+            <div class="button-container">
+                <button type="submit" class="button-submit">Publicar</button>
+            </div>
+           
+        </form>
+
+    </div>
+
+    <script src="scripts/cadastro.js"></script>
+</body>
+
+</html>

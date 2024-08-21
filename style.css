@@ -1,0 +1,150 @@
+.container-inicial {
+    border-radius: 8px;
+    border-color: black;
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    -webkit-box-shadow: 7px 6px 27px 3px rgba(229, 219, 132, 0.76);
+    -moz-box-shadow: 7px 6px 27px 3px rgba(229, 219, 132, 0.76);
+    box-shadow: 7px 6px 27px 3px rgba(229, 219, 132, 0.76);
+
+
+}
+
+body {
+    background-image: url('assets/animais.avif');
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo {
+    color: #674f23;
+    text-align: center;
+    font-size: 30px;
+}
+
+span {
+    color: red;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 0 6%;
+}
+
+.container-input input, textarea, select {
+    width: 95%;
+    box-sizing: border-box;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    outline-color: #674f23;
+    border: 1px solid #674f23;
+    resize: vertical;
+    margin: 0 6% ;
+    
+
+}
+
+.button-submit {
+    border-radius: 8px;
+    color: white;
+    background-color: #e5db84;
+    margin-top: 10px;
+
+}
+
+button {
+    width: 95%;
+    margin: 0 4%;
+    height: 25px;
+    
+}
+
+.NAV {
+    height: 60px;
+    background-color: #674f23;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NAV a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .row-form {
+        flex-direction: column;
+    }
+
+    .container-home {
+        width: 90%;
+    }
+}
+ 
+/*     AGORA SOBRE A TABELA    */
+
+.tabela-nav {
+    height: 70px;
+    background-color: #ece13c;
+    
+}
+
+.tabela {
+    border-radius: 8px;
+    border-color: rgb(53, 46, 46);
+    width: 96%;
+    margin: 0 auto;
+    background-color: #e5db84;
+    -webkit-box-shadow: 7px 6px 27px 3px rgba(229, 219, 132, 0.76);
+    -moz-box-shadow: 7px 6px 27px 3px rgba(229, 219, 132, 0.76);
+    box-shadow: 7px 6px 27px 3px rgba(229, 219, 132, 0.76);
+}
+
+.titulo-tabela {
+    color: #674f23;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.tabela-principio {
+   
+    width: 100%;
+    border: 1px;
+    padding: 5px;
+    
+    
+}
+
+.lixeira {
+    width: 30px;
+    object-fit: cover;
+    
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.botaoTabela {
+    background-color: transparent;
+    height: 35px;
+    width: 30px;
+    border-radius: 8px;
+    margin-left: 5px;
+}
